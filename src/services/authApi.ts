@@ -10,7 +10,7 @@ import useAuthStore from 'src/stores/authStore';
 export const API_URL = 'http://127.0.0.1:8888/api';
 
 
-const apiClient: AxiosInstance = axios.create({
+export const apiClient: AxiosInstance = axios.create({
   baseURL: API_URL,
   headers: {
     'Content-Type': 'application/json',

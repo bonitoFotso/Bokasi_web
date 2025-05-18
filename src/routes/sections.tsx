@@ -10,6 +10,7 @@ import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgr
 
 import LoginPage from 'src/pages/LoginPage';
 import { AuthLayout } from 'src/layouts/auth';
+import HabitsPage from 'src/pages/HabitsPage';
 import ProfilePage from 'src/pages/ProfilePage';
 import useAuthStore from 'src/stores/authStore';
 import RegisterPage from 'src/pages/RegisterPage';
@@ -122,6 +123,10 @@ export const routes: RouteObject[] = [
           { path: 'blog', element: <BlogPage /> },
           { path: 'profile', element: <ProfilePage /> },
           { path: 'change-password', element: <ChangePasswordPage /> },
+          {
+            path: '/habits',
+            element: <HabitsPage />
+          }
         ],
       },
     ],
