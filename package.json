@@ -1,8 +1,8 @@
 {
-  "name": "@minimal/material-kit-react",
-  "author": "minimals.cc",
+  "name": "bokasi",
+  "author": "Bonito Fotso",
   "licence": "MIT",
-  "version": "3.0.0",
+  "version": "1.0.2",
   "private": false,
   "type": "module",
   "scripts": {
@@ -26,7 +26,7 @@
   "engines": {
     "node": ">=20"
   },
-  "packageManager": "yarn@1.22.22",
+  "packageManager": "npm@9.2.0",
   "dependencies": {
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",

@@ -73,7 +73,7 @@ const HabitStats: React.FC<HabitStatsProps> = ({ habit, className }) => {
           <Box display="flex" alignItems="center" gap={0.5}>
             <TimeIcon sx={{ fontSize: 18, color: 'text.secondary' }} />
             <Typography variant="body2" color="text.secondary" sx={{ fontSize: '0.875rem' }}>
-              {formatDate(habit.startDate)}
+              {formatDate(habit.start_date)}
             </Typography>
           </Box>
         </Tooltip>

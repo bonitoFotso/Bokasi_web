@@ -8,6 +8,7 @@ import Box from '@mui/material/Box';
 import CircularProgress from '@mui/material/CircularProgress';
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
 
+import Test from 'src/pages/test2';
 import LoginPage from 'src/pages/LoginPage';
 import { AuthLayout } from 'src/layouts/auth';
 import HabitsPage from 'src/pages/HabitsPage';
@@ -131,6 +132,11 @@ export const routes: RouteObject[] = [
           {
             path: '/habits/:id',
             element: <HabitDetailPage/>
+          },
+
+          {
+            path: '/zustand',
+            element: <Test />
           },
         ],
       },

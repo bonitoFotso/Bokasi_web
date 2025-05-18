@@ -41,7 +41,7 @@ const HabitStatsCard: React.FC<HabitStatsCardProps> = ({
   // Calculer les statistiques
   const totalCompletions = completions.length;
   const daysSinceStart = Math.ceil(
-    (new Date().getTime() - new Date(habit.startDate).getTime()) / (1000 * 60 * 60 * 24)
+    (new Date().getTime() - new Date(habit.start_date).getTime()) / (1000 * 60 * 60 * 24)
   );
 
   // Statistiques par période

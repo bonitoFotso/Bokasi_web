@@ -317,7 +317,7 @@ const useHabitStore = create<HabitState>()(
           }
         },
 
-        // Récupérer les habitudes du jour
+        // Récupérer les habitudes du jourb
         fetchTodayHabits: async () => {
           try {
             set({ isLoading: true, error: null });

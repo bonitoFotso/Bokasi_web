@@ -1,48 +1,60 @@
-## Minimal UI ([Free version](https://free.minimals.cc/))
+# Bokasi - Application de Gestion et de Tracking d'Habitudes
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+## 📋 Présentation
 
-![preview](public/assets/images/minimal-free-preview.jpg)
+Bokasi est une application intuitive conçue pour vous aider à développer, suivre et maintenir vos habitudes quotidiennes. Que vous souhaitiez adopter un mode de vie plus sain, être plus productif ou développer de nouvelles compétences, Bokasi vous accompagne dans votre parcours de transformation personnelle.
 
-> Free React Admin Dashboard made with Material-UI components and React + Vite.js.
+## ✨ Fonctionnalités principales
 
-## Pages
+- **Création d'habitudes personnalisées** : Définissez les habitudes qui vous tiennent à cœur
+- **Suivi quotidien** : Marquez facilement vos habitudes comme complétées
+- **Visualisation de progrès** : Graphiques et statistiques pour analyser votre évolution
+- **Rappels personnalisables** : Ne manquez jamais une habitude importante
+- **Système de récompenses** : Restez motivé avec des badges et des accomplissements
 
-- [Dashboard](https://free.minimals.cc/)
-- [Users](https://free.minimals.cc/user)
-- [Products](https://free.minimals.cc/products)
-- [Blog](https://free.minimals.cc/blog)
-- [Sign in](https://free.minimals.cc/sign-in)
-- [Not found](https://free.minimals.cc/404)
+## 🚀 Installation
 
-## Quick start
+```bash
+# Cloner le dépôt
+git clone https://github.com/votrenom/bokasi.git
 
-- Clone the repo: `git clone https://github.com/minimal-ui-kit/material-kit-react.git`
-- Recommended: `Node.js v20.x`
-- **Install:** `npm i` or `yarn install`
-- **Start:** `npm run dev` or `yarn dev`
-- **Build:** `npm run build` or `yarn build`
-- Open browser: `http://localhost:3039`
+# Accéder au répertoire
+cd bokasi
 
-## Upgrade to PRO Version
+# Installer les dépendances
+npm install
 
-| Minimal Free                | [Minimal Pro](https://material-ui.com/store/items/minimal-dashboard/)                                   |
-| :-------------------------- | :------------------------------------------------------------------------------------------------------ |
-| **6** Pages                 | **70+** Pages                                                                                           |
-| **Partial** theme customize | **Fully** theme customize                                                                               |
-| -                           | **Next.js** version                                                                                     |
-| -                           | **TypeScript** version (Standard Plus and Extended license)                                             |
-| -                           | Design **Figma** file (Standard Plus and Extended license)                                              |
-| -                           | Authentication with **Amplify**, **Auth0**, **JWT**, **Firebase** and **Supabase**                      |
-| -                           | Light/dark mode, right-to-left, form validation... ([+more components](https://minimals.cc/components)) |
-| -                           | Complete users flows                                                                                    |
-| -                           | 1 year of free updates / 6 months of technical support                                                  |
-| -                           | Learn more: [Package & license](https://docs.minimals.cc/package)                                       |
+# Lancer l'application
+npm start
+```
 
-## License
+## 🔧 Technologies utilisées
 
-Distributed under the [MIT](https://github.com/minimal-ui-kit/minimal.free/blob/main/LICENSE.md) license.
+- Frontend: [Liste des technologies frontend]
+- Backend: [Liste des technologies backend]
+- Base de données: [Technologie de base de données]
 
-## Contact us
+## 📱 Captures d'écran
 
-Email: support@minimals.cc
+*[Ajoutez ici des captures d'écran de votre application]*
+
+## 🗺️ Feuille de route
+
+- [ ] Synchronisation multi-appareils
+- [ ] Application mobile (iOS/Android)
+- [ ] Fonctionnalités sociales et partage de défis
+- [ ] Analyses avancées des données
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! N'hésitez pas à forker le projet et soumettre une pull request.
+
+## 📄 Licence
+
+Ce projet est sous licence [insérer votre licence] - voir le fichier LICENSE.md pour plus de détails.
+
+## 📞 Contact
+
+[Votre nom] - [@votre_twitter](https://twitter.com/votre_twitter) - email@example.com
+
+Lien du projet: [https://github.com/votrenom/bokasi](https://github.com/votrenom/bokasi)

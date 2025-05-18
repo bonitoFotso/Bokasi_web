@@ -35,7 +35,7 @@ export interface Habit {
 
   // Dates
   createdAt: string;
-  startDate: string;
+  start_date: string;
 
   // Computed properties (can be added when needed)
   streak?: number;
@@ -43,7 +43,7 @@ export interface Habit {
 
   completions?: HabitCompletion[];
   notifications?: Notification[];
-  calendar?: CalendarEntry[];   
+  calendar?: CalendarEntry[];
 }
 
 // Time preference for notifications
