@@ -48,6 +48,7 @@ export const habitService = {
   },
 
   createHabit: async (habit: Partial<Habit>): Promise<Habit> => {
+    console.log(habit);
     const response = await apiClient.post(ENDPOINTS.HABITS, habit);
     return response.data;
   },

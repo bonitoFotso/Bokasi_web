@@ -12,34 +12,38 @@ export type FrequencyType = 'daily' | 'weekly' | 'custom';
 
 // Types for Habit
 export interface Habit {
-    id: number;
-    name: string;
-    description: string | null;
-    frequency: FrequencyType;
-    
-    // For custom frequency (specific days)
-    monday: boolean;
-    tuesday: boolean;
-    wednesday: boolean;
-    thursday: boolean;
-    friday: boolean;
-    saturday: boolean;
-    sunday: boolean;
-    
-    // Category reference
-    categoryId: number | null;
-    category?: Category;
-    
-    // User reference
-    userId: number;
-    
-    // Dates
-    createdAt: string;
-    startDate: string;
-    
-    // Computed properties (can be added when needed)
-    streak?: number;
-    shouldCompleteToday?: boolean;
+  id: number;
+  name: string;
+  description: string | null;
+  frequency: FrequencyType;
+
+  // For custom frequency (specific days)
+  monday: boolean;
+  tuesday: boolean;
+  wednesday: boolean;
+  thursday: boolean;
+  friday: boolean;
+  saturday: boolean;
+  sunday: boolean;
+
+  // Category reference
+  categoryId: number | null;
+  category?: Category;
+
+  // User reference
+  userId: number;
+
+  // Dates
+  createdAt: string;
+  startDate: string;
+
+  // Computed properties (can be added when needed)
+  streak?: number;
+  shouldCompleteToday?: boolean;
+
+  completions?: HabitCompletion[];
+  notifications?: Notification[];
+  calendar?: CalendarEntry[];   
 }
 
 // Time preference for notifications
@@ -57,11 +61,12 @@ export interface Notification {
 
 // Types for HabitCompletion
 export interface HabitCompletion {
-    id: number;
-    habitId: number;
-    habit?: Habit;
-    date: string;
-    notes: string | null;
+  id: number;
+  habitId: number;
+  habit?: Habit;
+  date: string;
+  completed_at: string | null;
+  notes: string | null;
 }
 
 // API Response Types

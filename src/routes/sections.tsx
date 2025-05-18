@@ -15,6 +15,7 @@ import ProfilePage from 'src/pages/ProfilePage';
 import useAuthStore from 'src/stores/authStore';
 import RegisterPage from 'src/pages/RegisterPage';
 import { DashboardLayout } from 'src/layouts/dashboard';
+import HabitDetailPage from 'src/pages/HabitDetailPage';
 import PasswordResetPage from 'src/pages/PasswordResetPage';
 import ChangePasswordPage from 'src/pages/ChangePasswordPage';
 
@@ -126,7 +127,11 @@ export const routes: RouteObject[] = [
           {
             path: '/habits',
             element: <HabitsPage />
-          }
+          },
+          {
+            path: '/habits/:id',
+            element: <HabitDetailPage/>
+          },
         ],
       },
     ],
